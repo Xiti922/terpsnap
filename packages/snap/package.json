@@ -1,10 +1,10 @@
 {
-  "name": "@cosmsnap/snap",
-  "version": "0.1.17",
-  "description": "The Cosmos extension for your Metamask wallet.",
+  "name": "@xiti/terpsnap",
+  "version": "0.1.0",
+  "description": "The Terp extension for your Metamask wallet.",
   "repository": {
     "type": "git",
-    "url": "https://github.com/cosmos/snap.git"
+    "url": "https://github.com/Xiti922/terpsnap.git"
   },
   "license": "MIT",
   "author": "Mystic Labs, Inc",

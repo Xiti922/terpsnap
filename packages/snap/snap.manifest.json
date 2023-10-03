@@ -1,10 +1,10 @@
 {
-  "version": "0.1.17",
-  "description": "Cosmos Extension that adds Cosmos support to Metamask.",
-  "proposedName": "Cosmos Extension",
+  "version": "0.1.0",
+  "description": "Terp Extension that adds Terp support to Metamask.",
+  "proposedName": "Terp Extension",
   "repository": {
     "type": "git",
-    "url": "https://github.com/cosmos/snap.git"
+    "url": "https://github.com/Xiti922/terpsnap.git"
   },
   "source": {
     "shasum": "O3k1mxMGVbP98FqhLnd57TJxwMWUsG+W0YwDNMrJpnY=",
@@ -12,7 +12,7 @@
       "npm": {
         "filePath": "dist/bundle.js",
         "iconPath": "images/icon.svg",
-        "packageName": "@cosmsnap/snap",
+        "packageName": "@xiti/terpsnap",
         "registry": "https://registry.npmjs.org/"
       }
     }
