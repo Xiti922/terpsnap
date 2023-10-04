@@ -5,6 +5,11 @@
             "rest": "https://cosmos-lcd.numia.xyz",
             "rpc": "https://cosmos-rpc.numia.xyz"
         },
+		{
+            "chain_id": "morocco-1",
+            "rest": "https://api-terp.zenchainlabs.io",
+            "rpc": "https://rpc-terp.zenchainlabs.io"
+        },
         {
             "chain_id": "juno-1",
             "rest": "https://juno-lcd.numia.xyz",

@@ -6,7 +6,7 @@
 	import Button from "./Button.svelte";
 	import ChainSelector from "./ChainSelector.svelte";
 
-  let chain_id = $chains.length > 0 ? $chains[0].chain_id : "cosmoshub-4";
+  let chain_id = $chains.length > 0 ? $chains[0].chain_id : "morocco-1";
   let address = "cosmos163gulek3trdckcktcv820dpxntnm7qkkgfkcga";
   let name = "John Doe";
   let loading = false;

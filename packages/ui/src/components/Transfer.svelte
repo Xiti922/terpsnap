@@ -15,8 +15,8 @@
 	import { snapId } from "../utils/snap";
   
   let loading = false;
-  let source = "cosmoshub-4";
-  let destination = "cosmoshub-4";
+  let source = "morocco-1";
+  let destination = "morocco-1";
   let selected: any;
   let sourceChainChange = false;
   let amount = 0;

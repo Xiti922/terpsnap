@@ -93,7 +93,7 @@ const chain = await window.ethereum.request({
         request: {
             method: 'deleteChain',
             params: {
-                chain_id: 'cosmoshub-4',
+                chain_id: 'morocco-1',
             }
         },
     },
@@ -130,7 +130,7 @@ const address = await window.ethereum.request({
         request: {
             method: 'transact',
             params: {
-                chain_id: 'cosmoshub-4',
+                chain_id: 'morocco-1',
                 msgs: JSON.stringify(msgs),
                 // Optional: Uses default fees for chain if not specified
                 fees: JSON.stringify(fees)
@@ -171,7 +171,7 @@ const address = await window.ethereum.request({
         request: {
             method: 'signTx',
             params: {
-                chain_id: 'cosmoshub-4',
+                chain_id: 'morocco-1',
                 msgs: JSON.stringify(msgs),
                 // Optional: Uses default fees for chain if not specified
                 fees: JSON.stringify(fees)
@@ -190,7 +190,7 @@ const address = await window.ethereum.request({
         request: {
             method: 'addAddress',
             params: {
-                chain_id: 'cosmoshub-4',
+                chain_id: 'morocco-1',
                 address: 'cosmos123456789',
                 name: 'John Cosmos'
             }
@@ -237,7 +237,7 @@ const address = await window.ethereum.request({
         request: {
             method: 'getChainAddress',
             params: {
-                chain_id: 'cosmoshub-4',
+                chain_id: 'morocco-1',
             }
         },
     },

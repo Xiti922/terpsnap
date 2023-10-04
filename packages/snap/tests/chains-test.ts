@@ -51,7 +51,7 @@ class PassingChainStateTests {
   //getChain function should return the chain with matching chain_id
   async getChainPassTest(t: any) {
     //get the chain matching given chain_id
-    const result = await ChainState.getChain("cosmoshub-4");
+    const result = await ChainState.getChain("morocco-1");
 
     t.deepEqual(result, chainsJson[1]);
   }
@@ -72,7 +72,7 @@ class PassingChainStateTests {
 
   //removeChain function should delete the chain matching the given chain_id
   async removeChainPassTest(t: any) {
-    await ChainState.removeChain("cosmoshub-4");
+    await ChainState.removeChain("morocco-1");
 
     const result = await ChainState.getChains();
 

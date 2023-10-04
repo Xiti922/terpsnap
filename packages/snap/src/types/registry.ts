@@ -100,6 +100,10 @@ export let registry = [
     url: "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/chain.json",
   },
   {
+    chain_id: "terpnetwork",
+    url: "https://raw.githubusercontent.com/cosmos/chain-registry/master/terpnetwork/chain.json",
+  },
+  {
     chain_id: "umee",
     url: "https://raw.githubusercontent.com/cosmos/chain-registry/master/umee/chain.json",
   },

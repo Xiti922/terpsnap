@@ -9,9 +9,9 @@ window.cosmos = new CosmosSnap();
 
 const memo = "Hello from Metamask!";
 
-let offlineSigner = await window.cosmos.getOfflineSigner("cosmoshub-4");
+let offlineSigner = await window.cosmos.getOfflineSigner("morocco-1");
 
-let wallet = await window.cosmos.getAccount("cosmoshub-4");
+let wallet = await window.cosmos.getAccount("morocco-1");
 
 // Create a send token message
 const msg = {
@@ -134,7 +134,7 @@ let chains: []Chain = await getChains();
 Delete a chain from wallet state.
 ```typescript
 import { deleteChain } from '@cosmsnap/snapper';
-await deleteChain("cosmoshub-4");
+await deleteChain("morocco-1");
 ```
 
 ### Sign & Broadcast.
@@ -163,7 +163,7 @@ const fees = {
     }],
     gas: "200000"
 };
-let txResult: DeliverTxResponse = await signAndBroadcast("cosmoshub-4", msgs, fees);
+let txResult: DeliverTxResponse = await signAndBroadcast("morocco-1", msgs, fees);
 ```
 
 ### Sign Transaction.
@@ -192,13 +192,13 @@ const fees = {
     }],
     gas: "200000"
 };
-let txResult: DeliverTxResponse = await sign("cosmoshub-4", msgs, fees);
+let txResult: DeliverTxResponse = await sign("morocco-1", msgs, fees);
 ```
 
 ### Add Address to Address Book.
 ```typescript
 import { addAddressToBook } from '@cosmsnap/snapper';
-await addAddressToBook("cosmoshub-4", "cosmos123456789", "John Doe");
+await addAddressToBook("morocco-1", "cosmos123456789", "John Doe");
 ```
 
 ### Get Address Book
@@ -224,5 +224,5 @@ let allAddresses: CosmosAddress[] = await getBech32Addresses();
 Gets a Bech32 address for a chain.
 ```typescript
 import { getBech32Addresses } from '@cosmsnap/snapper';
-let address: CosmosAddress = await getBech32Address("cosmoshub-4");
+let address: CosmosAddress = await getBech32Address("morocco-1");
 ```

@@ -99,7 +99,7 @@ class ChainsPassingOnRpcRequestTests {
       jsonrpc: "2.0",
       id: null,
       params: {
-        chain_id: "cosmoshub-4",
+        chain_id: "morocco-1",
       },
     };
 
@@ -198,7 +198,7 @@ class ChainsFailingOnRpcRequestTests {
         jsonrpc: "2.0",
         id: null,
         params: {
-          chain_id: "cosmoshub-4",
+          chain_id: "morocco-1",
         },
       };
     } else {
